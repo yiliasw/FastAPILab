@@ -23,12 +23,12 @@ to search through URL:
 rating is now an attribute of the book object, and is a list of integers greater than or equal to 1 and less than or equal to 5.
 
 ## Partial updates with patch(exercise 3)
-python client.py patch <id> <--field> <value> to update a book without having to enter every field
+python client.py patch <id> <--field> <value> to update a book without having to enter every field.
 
 
 
 ## Book count(exercise 5)
-use python client.py patch <--field> <value>
+use python client.py count to get a count of all books.
 
 
 
